@@ -84,7 +84,7 @@ W_long = W %>% arrange(t) %>%
 Z_saared = W %>%
   mutate(xmin = t - 0.5, xmax = t + 0.5)
 
-#Esimese 50 vaatluse graafik
+#Esimese 60 vaatluse graafik
 U_graafik = ggplot() +
   geom_rect(data = Z_saared, 
             aes(xmin = xmin, xmax = xmax, ymin = -Inf, ymax = Inf, fill = factor(Z)), 
