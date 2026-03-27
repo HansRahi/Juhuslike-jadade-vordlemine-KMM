@@ -4,7 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
-  #Bernoulli jaotuse generaator
+#Bernoulli jaotuse generaator
 rber = function(p) {
   return(rbinom(1,1,p))
 }
